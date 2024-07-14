@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class CanvasFail : UICanvas
+public class CanvasFail : CanvasVictory
 {
 }

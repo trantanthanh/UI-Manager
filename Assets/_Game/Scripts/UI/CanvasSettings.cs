@@ -21,7 +21,7 @@ public class CanvasSettings : UICanvas
         {
             buttons[2].SetActive(true);//Button - Close
         }
-        else if (canvas is CanvasSettings) 
+        else if (canvas is CanvasGamePlay) 
         {
             buttons[0].SetActive(true);//Button - MainMenu
             buttons[1].SetActive(true);//Button - Continue
