@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 150317662}
   - component: {fileID: 150317661}
   - component: {fileID: 150317660}
+  - component: {fileID: 150317663}
   m_Layer: 5
   m_Name: Canvas - Victory
   m_TagString: Untagged
@@ -346,6 +347,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &150317663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150317658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4474899a4e4aee54dba2f935e05bd3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!1 &172605012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,13 +1808,14 @@ GameObject:
   - component: {fileID: 581253250}
   - component: {fileID: 581253249}
   - component: {fileID: 581253248}
+  - component: {fileID: 581253251}
   m_Layer: 5
   m_Name: Canvas - MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &581253247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1884,6 +1899,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &581253251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581253246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24dded4ca25a8b4b8da1bcf7f3aacbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!1 &742427374
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,6 +3974,7 @@ GameObject:
   - component: {fileID: 1774648961}
   - component: {fileID: 1774648960}
   - component: {fileID: 1774648959}
+  - component: {fileID: 1774648962}
   m_Layer: 5
   m_Name: Canvas - Fail
   m_TagString: Untagged
@@ -4036,6 +4065,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1774648962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774648957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d23524df549880439bda648c55b4820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!1 &1793440548
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,13 +4426,14 @@ GameObject:
   - component: {fileID: 1850855610}
   - component: {fileID: 1850855609}
   - component: {fileID: 1850855608}
+  - component: {fileID: 1850855611}
   m_Layer: 5
   m_Name: Canvas - Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1850855607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4474,6 +4517,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!114 &1850855611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850855606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826c34ed9a258ea4ebd769acd566ff5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!1 &1904120133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4831,6 +4887,7 @@ GameObject:
   - component: {fileID: 2014571251}
   - component: {fileID: 2014571250}
   - component: {fileID: 2014571249}
+  - component: {fileID: 2014571252}
   m_Layer: 5
   m_Name: Canvas - GamePlay
   m_TagString: Untagged
@@ -4921,6 +4978,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2014571252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014571247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9fc133affa44f4ca2dfaa6959ab5fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!1 &2046268646
 GameObject:
   m_ObjectHideFlags: 0
